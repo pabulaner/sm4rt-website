@@ -1,0 +1,23 @@
+.label {
+    -fx-font-family: Cairo;
+}
+
+.timer-value {
+    -fx-font-size: 50;
+    -fx-text-fill: white;
+    -fx-background-color: #B300ADFF;
+    -fx-background-radius: 5;
+    -fx-padding: 0 8 0 8;
+}
+
+.timer-unit {
+    -fx-font-size: 40;
+    -fx-text-fill: #151515FF;
+    -fx-text-alignment: center;
+}
+
+.timer-separator {
+    -fx-font-size: 50;
+    -fx-font-weight: bold;
+    -fx-text-fill: #151515FF;
+}
