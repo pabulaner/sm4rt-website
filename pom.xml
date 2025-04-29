@@ -95,6 +95,7 @@
                 <version>${jpro.version}</version>
                 <configuration>
                     <mainClassName>life.sm4rt.website.App</mainClassName>
+                    <port>80</port>
                 </configuration>
             </plugin>
         </plugins>

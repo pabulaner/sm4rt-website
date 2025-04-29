@@ -8,7 +8,7 @@ public class App extends RouteApp {
 
     @Override
     public Route createRoute() {
-        return Route.empty()
-                .and(Route.get("/", r -> Response.node(new PageHome())));
+        getScene().getStylesheets().add("/css/home.css");
+        return Route.empty().and(Route.get("/", r -> Response.node(new PageHome())));
     }
 }
